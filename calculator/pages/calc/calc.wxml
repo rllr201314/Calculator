@@ -1,0 +1,37 @@
+<!--pages/calc/calc.wxml-->
+<view class="box" style="height:{{windowHeight}}rpx;background-color:{{boxColor}};">
+  <view class="res-main" style="height:{{windowHeight-900}}rpx;">
+    <text class="res resSty" style="color:{{fontColor}};">{{show}}</text>
+  </view>
+  <view class="line-main" capture-bind:touchstart="calculator">
+    <view class="line">
+      <button class="btn {{btnCtrlSty}}" data-val="clear">{{ac}}</button>
+      <button class="btn {{btnCtrlSty}}" data-val="minus">+/-</button>
+      <button class="btn {{btnCtrlSty}}" data-val="%">%</button>
+      <button class="btn {{btnDivideSty}}" data-val="/">÷</button>
+    </view>
+    <view class="line">
+      <button class="btn {{btnNumSty}}" style="color:{{fontColor}};" data-val="7">7</button>
+      <button class="btn {{btnNumSty}}" style="color:{{fontColor}};" data-val="8">8</button>
+      <button class="btn {{btnNumSty}}" style="color:{{fontColor}};" data-val="9">9</button>
+      <button class="btn {{btnMultiplySty}}" data-val="*">×</button>
+    </view>
+    <view class="line">
+      <button class="btn {{btnNumSty}}" style="color:{{fontColor}};" data-val="4">4</button>
+      <button class="btn {{btnNumSty}}" style="color:{{fontColor}};" data-val="5">5</button>
+      <button class="btn {{btnNumSty}}" style="color:{{fontColor}};" data-val="6">6</button>
+      <button class="btn {{btnSubtractSty}}" data-val="-">-</button>
+    </view>
+    <view class="line">
+      <button class="btn {{btnNumSty}}" style="color:{{fontColor}};" data-val="1">1</button>
+      <button class="btn {{btnNumSty}}" style="color:{{fontColor}};" data-val="2">2</button>
+      <button class="btn {{btnNumSty}}" style="color:{{fontColor}};" data-val="3">3</button>
+      <button class="btn {{btnAddSty}}" data-val="+">+</button>
+    </view>
+    <view class="line">
+      <button class="btn {{btnNumSty}} btn-zero" style="color:{{fontColor}};" data-val="0">0</button>
+      <button class="btn {{btnNumSty}}" style="color:{{fontColor}};" data-val=".">.</button>
+      <button class="btn {{btnEqualSty}}" data-val="=">=</button>
+    </view>
+  </view>
+</view>

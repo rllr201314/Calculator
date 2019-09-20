@@ -1,0 +1,173 @@
+/* pages/calc/calc.wxss */
+
+/* 按键区 */
+.line-main {
+  position: absolute;
+  bottom: 0;
+  height: 900rpx;
+  width: 750rpx;
+}
+
+.line {
+  height: 150rpx;
+  width: 750rpx;
+  margin-bottom: 30rpx;
+}
+
+.btn {
+  float: left;
+  height: 150rpx;
+  width: 150rpx;
+  border-radius: 150rpx;
+  margin-left: 30rpx;
+  border: none;
+  line-height: 150rpx;
+  font-size: 58rpx;
+  font-weight: 450;
+  font-stretch: semi-condensed;
+}
+
+button::after {
+  border: none
+}
+
+.btn-zero {
+  float: left;
+  height: 150rpx;
+  width: 330rpx;
+  border-radius: 70rpx;
+  text-align: left;
+  padding-left: 60rpx;
+}
+
+/* 显示区 */
+.res-main {
+  position: relative;
+  text-align: right;
+  margin-right: 30rpx;
+  margin-left: 30rpx;
+  font-size: 100rpx;
+}
+
+.res {
+  position: absolute;
+  bottom: 30rpx;
+  right: 30rpx;
+}
+
+/* 颜色样式 */
+
+/* active */
+.btn:active {
+  background: transparent;
+
+}
+
+/* = */
+/* .btn-equal-sty-dark:active {
+  transition: background-color .8s, color .8s;
+  background-color: #fff;
+  color: #f09a37;
+
+} */
+
+
+/* dark */
+.res-sty-dark {
+  color: #fff;
+}
+
+/* ctrl */
+.btn-ctrl-sty-dark {
+  background-color: #a5a5a5;
+}
+
+/* num */
+.btn-num-sty-dark {
+  background-color: #333333;
+}
+
+/* = */
+.btn-equal-sty-dark {
+  background-color: #f09a37;
+  color: #fff;
+}
+
+/* + */
+.btn-add-sty-dark {
+  transition: background-color .8s, color .8s;
+  background-color: #f09a37;
+  color: #fff;
+}
+
+/* - */
+.btn-subtract-sty-dark {
+  transition: background-color .8s, color .8s;
+  background-color: #f09a37;
+  color: #fff;
+}
+
+/* x */
+.btn-multiply-sty-dark {
+  transition: background-color .8s, color .8s;
+  background-color: #f09a37;
+  color: #fff;
+}
+
+/* ÷ */
+.btn-divide-sty-dark {
+  transition: background-color .8s, color .8s;
+  background-color: #f09a37;
+  color: #fff;
+}
+
+
+/* hover */
+/* + */
+.btn-add-sty-dark:hover {
+  transition: background-color .8s, color .8s;
+  background-color: #fff;
+  color: #f09a37;
+}
+
+/* - */
+.btn-subtract-sty-dark:hover {
+  transition: background-color .8s, color .8s;
+  background-color: #fff;
+  color: #f09a37;
+}
+
+/* x */
+.btn-multiply-sty-dark:hover {
+  transition: background-color .8s, color .8s;
+  background-color: #fff;
+  color: #f09a37;
+}
+
+/* ÷ */
+.btn-divide-sty-dark:hover {
+  transition: background-color .8s, color .8s;
+  background-color: #fff;
+  color: #f09a37;
+}
+
+
+/* .btn-arith-sty-dark {
+  background-color: lightcoral;
+}
+
+.btn-arith-sty-dark-hover {
+  transition: background-color 2s, color 2s;
+  background-color: #000;
+  color: #fff;
+} */
+
+
+
+
+
+/* light */
+
+
+
+
